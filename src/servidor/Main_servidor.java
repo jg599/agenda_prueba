@@ -13,9 +13,17 @@ public class Main_servidor {
 	
 	public static void main(String[] args) throws IOException, SQLException {
 
-		auxConexion = new Administrar_Conexion("maquina_refrescos", "root", "",
+		auxConexion = new Administrar_Conexion("agenda_server", "root", "",
 				"jdbc:mysql://localhost/maquina_refrescos");
 		
 		auxConexion.conexion();
+		
+		
+		
+	
 }
+	public void login(){
+		
+		
+	}
 }
