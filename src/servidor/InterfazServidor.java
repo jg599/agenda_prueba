@@ -4,9 +4,11 @@ import java.rmi.Remote;
 import java.rmi.RemoteException;
 
 public interface InterfazServidor extends Remote {
-	
-	public void registro(String id_cliente, int intervalo_heartbeat)
-			throws RemoteException;
+	public int ver_contactos() throws RemoteException;
 
-	public void heartbeat(String id_cliente) throws RemoteException;
+	public int modificar_contactos(int a, int b) throws RemoteException;
+
+	public int borrar_contactos() throws RemoteException;
+
+	
 }
