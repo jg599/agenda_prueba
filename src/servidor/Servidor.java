@@ -42,8 +42,8 @@ public class Servidor implements InterfazServidor {
 		}
 	}
 
-	public int modificar_contactos(int a, int b) throws RemoteException {
-		return (a - b);
+	public void modificar_contactos() throws RemoteException {
+		
 	}
 
 	public void borrar_contactos() throws RemoteException {
