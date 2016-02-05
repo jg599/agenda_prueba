@@ -100,7 +100,7 @@ public class Servidor implements InterfazServidor {
 		}
 	}
 
-	public static void login(String user, String pass) throws SQLException {
+	public void login(String user, String pass) throws SQLException {
 
 		String name = user;
 		String password = pass;
